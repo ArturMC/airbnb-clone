@@ -1,14 +1,17 @@
 import Head from "next/head";
+import Header from "../components/Header";
+import HeroImage from "../components/HeroImage";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1></h1>
+      <Header />
+      <HeroImage />
     </div>
   );
 }
